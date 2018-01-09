@@ -36,4 +36,6 @@ bot.on('message', message =>  {
 
 });
 
-client.login('Mzk5OTkwMDAxMDcwMzc0OTEz.DTVK6g.aINcIM1z9vyAmH2d9XA8kX9VSPM');
+//THIS MUST BE THIS WAY
+
+client.login(process.env.BOT_TOKEN);
