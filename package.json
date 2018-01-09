@@ -1,7 +1,7 @@
 {
   "name": "oncbot",
   "version": "1.0.0",
-  "description": "",
+  "description": "oncbot",
   "main": "bot.js",
   "scripts": {
     "start": "node bot.js"
@@ -10,5 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "discord.js": "11.2.1"
+    "request": "2.81.0"
   }
 }
